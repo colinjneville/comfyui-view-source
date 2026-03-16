@@ -23,7 +23,7 @@ routes = server.PromptServer.instance.routes
 @routes.post("/view_source")
 async def view_source(request: web.Request):
     data = await request.post()
-    print(data)
+    
     class_name = data["class_name"]
     if class_name is not None:
         class_name = str(class_name)
