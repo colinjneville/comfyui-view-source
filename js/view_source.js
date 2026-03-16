@@ -20,7 +20,7 @@ async function send_view_source_message(node) {
 
         for (let i = 0; i < SETTINGS_ARGUMENT_LEN; ++i) {
             const argument = app.extensionManager.setting.get(settings_argument(i));
-            console.log(argument)
+            
             if (argument) {
                 body.append('arguments', argument);
             }
