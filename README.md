@@ -19,6 +19,6 @@ For example, to open directly to the node in VSCode:
 
 The command line is currently implemented as a setting value per argument (up to 4 arguments) to aid argument escaping. If you need more arguments, you can change `SETTINGS_ARGUMENT_LEN` in `.js/view_source.js`.  
 
-This should theoretically work on Linux, but has only been tested on Windows.
+This should theoretically work on MacOS, but has only been tested on Windows and Linux.
 
 Attempting to view source of a subgroup will fail, as there is no source.
