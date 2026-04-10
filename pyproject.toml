@@ -1,0 +1,19 @@
+[project]
+name = "view-source"
+description = "Quickly open the source code to nodes in ComfyUI."
+version = "1.0.0"
+license = { file = "LICENSE" }
+
+classifiers = [
+    "Operating System :: Microsoft :: Windows", 
+    "Operating System :: POSIX :: Linux", 
+    "Operating System :: MacOS",  # macOS support is unverified
+]
+
+[project.urls]
+Repository = "https://github.com/colinjneville/comfyui-view-source"
+"Bug Tracker" = "https://github.com/colinjneville/comfyui-view-source/issues"
+
+[tool.comfy]
+PublisherId = "colinjneville"
+DisplayName = "View Source"

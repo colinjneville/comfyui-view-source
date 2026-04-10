@@ -2,7 +2,9 @@
 
 WEB_DIRECTORY = "./js"
 
-__all__ = ["WEB_DIRECTORY"]
+NODE_CLASS_MAPPINGS = { }
+
+__all__ = ["WEB_DIRECTORY", "NODE_CLASS_MAPPINGS"]
 
 __version__ = "0.0.1"
 
